@@ -55,11 +55,11 @@ End Process
 
 3. Before running the census_data.ipynb file make sure to change the variable uri with your MongoDB localhost connection string. (At the beginning of Task 5)
 
-4. Please make sure that you have installed streamlit before running the streamlit_app.py file.
+4. Please make sure that you have installed streamlit before running the sqldemo.py file.
 
 5. In case if you've not installed streamlit previously, open the Project document in VS Code, open the terminal and execute the command - pip install streamlit. Or just open command prompt and execute the command pip install streamlit.
 
-6. In order to run the streamlit_app.py, open the terminal and execute - streamlit run streamlit_app.py
+6. In order to run the sqldemo.py, open the terminal and execute - streamlit run sqldemo.py
 
 ## Project Structure
 ```plaintext
