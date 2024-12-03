@@ -44,7 +44,7 @@ End Process
 ## Technologies
 - **Python**: Data processing and pipeline automation
 - **MongoDB**: Storage of cleaned data in a NoSQL database
-- **SQL (MySQL/PostgreSQL)**: Structured data querying and analysis
+- **SQL (MySQL)**: Structured data querying and analysis
 - **Streamlit**: Building an interactive interface for data visualization
 
 ## Note :
@@ -59,14 +59,14 @@ End Process
 
 5. In case if you've not installed streamlit previously, open the Project document in VS Code, open the terminal and execute the command - pip install streamlit. Or just open command prompt and execute the command pip install streamlit.
 
-6. In order to run the sqldemo.py, open the terminal and execute - streamlit run sqldemo.py
+6. In order to run the sqldemo.py, open the terminal and execute ->> streamlit run sqldemo.py
 
 ## Project Structure
 ```plaintext
 .
 ├── data/                      # Contains raw and sample census data files
 ├── scripts/                   # Python scripts for each pipeline task
-│   └── streamlit_app.py       # Streamlit interface for visualization
+│   └── sqldemo.py             # Streamlit interface for visualization
 ├── README.md                  # Project documentation
 ├── requirements.txt           # Project dependencies
 └── census_data.ipynb          # Main notebook for end-to-end pipeline execution
